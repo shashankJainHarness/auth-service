@@ -1,1 +1,1 @@
-# payment-service
+# auth-service
