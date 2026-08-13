@@ -1,0 +1,8 @@
+activity:
+  description: ""
+  id: ActivityAuthService
+  inputs: {}
+  name: ActivityAuthService
+  outputs: {}
+  manual:
+    tasks: []
