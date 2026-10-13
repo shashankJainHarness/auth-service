@@ -1,7 +1,35 @@
 activity:
   description: ""
   id: wefwefwefwef
-  inputs: {}
+  inputs:
+    processInputIdentifier:
+      description: ""
+      type: string
+      default: <+processInput.identifier>
+      optional: false
+      readOnly: false
+      value: <+processInput.identifier>
+    processInputName:
+      description: ""
+      type: string
+      default: <+processInput.name>
+      optional: false
+      readOnly: false
+      value: <+processInput.name>
+    processIdentifier:
+      description: ""
+      type: string
+      default: <+process.identifier>
+      optional: false
+      readOnly: false
+      value: <+process.identifier>
+    processName:
+      description: ""
+      type: string
+      default: <+process.name>
+      optional: false
+      readOnly: false
+      value: <+process.name>
   name: wefwefwefwef
   outputs: {}
   manual:
