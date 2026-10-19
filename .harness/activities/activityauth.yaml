@@ -1,29 +1,20 @@
 activity:
   description: ""
   id: ActivityAuth
-  inputs: {}
+  inputs:
+    bugbashpatch:
+      description: ""
+      type: string
+      default: value
+      optional: false
+      readOnly: false
+      value: value
   name: ActivityAuth
   outputs: {}
   pipeline:
     pipeline: default/default_project/Service_Deployment
     inputSet:
-      name: ""
-      identifier: ""
-      orgIdentifier: default
-      projectIdentifier: default_project
-      repo: ""
-      branch: ""
-      connectorRef: ""
-      repoName: ""
-      storeType: INLINE
-      filePath: ""
-      provider:
-        type: Harness
-        titleLabelKey: common.harnessCodeRepo
-        descriptionLabelKey: common.harnessCodeRepoInfo
-        icon: code
-        size: 20
-        disabled: false
+      pipeline: {}
     stages: []
     expression: {}
     branch: ""
