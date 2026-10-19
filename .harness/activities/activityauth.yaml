@@ -1,0 +1,33 @@
+activity:
+  description: ""
+  id: ActivityAuth
+  inputs: {}
+  name: ActivityAuth
+  outputs: {}
+  pipeline:
+    pipeline: default/default_project/Service_Deployment
+    inputSet:
+      name: ""
+      identifier: ""
+      orgIdentifier: default
+      projectIdentifier: default_project
+      repo: ""
+      branch: ""
+      connectorRef: ""
+      repoName: ""
+      storeType: INLINE
+      filePath: ""
+      provider:
+        type: Harness
+        titleLabelKey: common.harnessCodeRepo
+        descriptionLabelKey: common.harnessCodeRepoInfo
+        icon: code
+        size: 20
+        disabled: false
+    stages: []
+    expression: {}
+    branch: ""
+    connectorRef: ""
+    parentEntityConnectorRef: ""
+    parentEntityRepoName: ""
+    repoIdentifier: ""
